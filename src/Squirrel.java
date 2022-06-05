@@ -24,7 +24,7 @@ public class Squirrel {
                 }
             }
         }
-        return Math.max(2, Math.max(nutsCost[nutsCost.length-1],nutsCost[nutsCost.length-2]));
+        return Math.max(0, Math.max(nutsCost[nutsCost.length-1],nutsCost[nutsCost.length-2]));
 
     }
 }
